@@ -1,3 +1,6 @@
+
+## API CHANGED TO https://daily-horoscope-expert.herokuapp.com
+
 ![](https://img.shields.io/badge/-Horoscope%20API-blueviolet.svg)
 
 Horoscope API
@@ -46,7 +49,7 @@ Result :
 
 ### GET: `/horoscope/today/<sunsign>`
 #### Example
-Example usage: `GET http://horoscope-api.herokuapp.com/horoscope/today/Libra`
+Example usage: `GET https://daily-horoscope-expert.herokuapp.com/horoscope/today/Libra`
 
 Example result:
 ```json
@@ -59,7 +62,7 @@ Example result:
 
 ### GET: `/horoscope/week/<sunsign>`
 #### Example
-Example usage: `GET http://horoscope-api.herokuapp.com/horoscope/week/libra`
+Example usage: `GET https://daily-horoscope-expert.herokuapp.com/horoscope/week/libra`
 
 Output (excerpt):
 ```json
@@ -72,7 +75,7 @@ Output (excerpt):
 
 ### GET: `/horoscope/month/<sunsign>`
 #### Example
-Example usage: `GET http://horoscope-api.herokuapp.com/horoscope/month/libra`
+Example usage: `GET https://daily-horoscope-expert.herokuapp.com/horoscope/month/libra`
 
 Output (excerpt):
 ```json
@@ -84,7 +87,7 @@ Output (excerpt):
 ```
 
 ### GET: `/horoscope/year/<sunsign>`
-Example usage: `GET http://horoscope-api.herokuapp.com/horoscope/year/libra`
+Example usage: `GET https://daily-horoscope-expert.herokuapp.com/horoscope/year/libra`
  Output (excerpt):
  ```json
  {
